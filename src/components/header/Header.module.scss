@@ -1,0 +1,96 @@
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    margin: 62px 40px 0 40px;
+}
+
+.header__logo {
+    width: 165px;
+    margin-top: 32px;
+    p {
+        font-size: 10px;
+        font-weight: 300;
+        line-height: 12px;
+        color: #E4E5EA;
+        padding-top: 8px;
+        width: 120px;
+    }
+    .header__logo1 {
+        padding-right: 8px;
+    }
+}
+
+.header__menu {
+    width: 340px;
+    margin-left: 54px;
+    ul {
+        display: flex;
+        gap: 30px;
+        list-style-type: none;
+    }
+    a {
+        outline: none;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 500;
+        color: #E4E5EA;
+    }
+    a:hover {
+        color: #FCB045;
+        transition: 0.5s;
+    }
+}
+
+.header__phone {
+    width: 143px;
+    margin-left: 137px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #E4E5EA;
+}
+
+.header__media {
+    display: flex;
+    gap: 34px;
+    margin-left: 48px;
+    img {
+        cursor: pointer;
+    }
+}
+
+.header__light {
+    position: absolute;
+    width: 259px;
+    height: 259px;
+    left: 600px;
+    top: -200px;
+    background: #833AB4;
+    opacity: 0.5;
+    filter: blur(196px);
+}
+
+.header__ball__purple {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 720px;
+    border-radius: 30px;
+    top: -50px;
+    background: radial-gradient(64% 64% at 27.25% 26.5%, rgba(236, 208, 255, 0.64) 0%, rgba(161, 93, 207, 0.24) 59.67%, rgba(118, 49, 164, 0.208) 78.59%, rgba(86, 24, 128, 0.232) 100%);
+    box-shadow: 3px 6px 27px -10px rgba(177, 118, 217, 0.25);
+    filter: blur(5px);
+}
+
+.header__ball__yellow {
+    position: absolute;
+    width: 83px;
+    height: 83px;
+    border-radius: 41px;
+    left: 400px;
+    top: 60px;
+    background: radial-gradient(64% 64% at 27.25% 26.5%, rgba(255, 208, 208, 0.536) 0%, rgba(212, 93, 93, 0.264) 59.67%, rgba(167, 49, 49, 0.248) 78.59%, rgba(130, 25, 25, 0.248) 100%);
+    box-shadow: 3px 6px 27px -10px rgba(223, 125, 125, 0.25);
+    filter: blur(5px);
+}
