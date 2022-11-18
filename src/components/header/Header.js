@@ -19,7 +19,7 @@ function Header() {
                     <li><a href="/#">Виджеты</a></li>
                     <li><a href="/#">Интеграции</a></li>
                     <li><a href="/#">Кейсы</a></li>
-                    <li><a href="/#">Сертификаты</a></li>
+                    <li><a href="/#" className={styles.header__cer}>Сертификаты</a></li>
                 </ul>
             </div>
             <p className={styles.header__phone}>+7 555 555-55-55</p>

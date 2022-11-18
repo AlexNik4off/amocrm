@@ -30,6 +30,22 @@ function Footer() {
                         <li><a href="/#">Вопрос / Ответ</a></li>
                     </ul>
                 </div>
+                <div className={styles.footer__table__mobile}>
+                    <ul>
+                        <li><a href="/#">Расчет стоимости</a></li>
+                        <li><a href="/#">Услуги</a></li> 
+                        <li><a href="/#">Виджеты</a></li> 
+                        <li><a href="/#">Интеграции</a></li>
+                        <li><a href="/#">Наши клиенты</a></li>
+                        </ul>
+                        <ul>
+                        <li><a href="/#">Благодарности клиентов</a></li> 
+                        <li><a href="/#">Кейсы</a></li>
+                        <li><a href="/#">Сертификаты</a></li>                                                                                                                                                            
+                        <li><a href="/#">Блог на Youtube</a></li>                       
+                        <li><a href="/#">Вопрос / Ответ</a></li>
+                    </ul>
+                </div>
             </div>
             <div className={styles.footer__right}>
                     <h3>КОНТАКТЫ</h3>
